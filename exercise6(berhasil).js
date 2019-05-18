@@ -1,10 +1,6 @@
 function meleeRangedGrouping (str,arr,strName,kondisi) {
     //your code here
-    if(arr === undefined){
-        arr = [[],[]]
-        strName = ''
-        kondisi =  false
-    }
+    
     if(arr === undefined){
         arr = [[],[]]
         strName = ''
