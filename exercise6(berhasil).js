@@ -5,6 +5,11 @@ function meleeRangedGrouping (str,arr,strName,kondisi) {
         strName = ''
         kondisi =  false
     }
+    if(arr === undefined){
+        arr = [[],[]]
+        strName = ''
+        kondisi =  false
+    }
     if(str.length == 0){
         return arr
     }
